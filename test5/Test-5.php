@@ -3,8 +3,6 @@
 Plugin Name: Test 5
 Description: This plugin generates a random WC product every 30 minutes.
 Author: Davide Guerra
-Text Domain: fwpb
-Domain Path: /languages/
 Version: 0.0.1
 */
 /*  This program is free software; you can redistribute it and/or modify
@@ -75,13 +73,13 @@ function create_random_products() {
 		'pa_brands' => array(
 			'name' => 'pa_brands',
 			'value' => '',
-			'is_visible' => '0',
+			'is_visible' => '1',
 			'is_taxonomy' => '1'
 		),
 		'pa_colors' => array(
 			'name' => 'pa_colors',
 			'value' => '',
-			'is_visible' => '0',
+			'is_visible' => '1',
 			'is_taxonomy' => '1'
 		)
 	);
